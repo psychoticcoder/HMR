@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/ap.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.BC, .tfuow {
+    position: relative;
+    top: 380px;
+    left: 650px;
+    width: 40%;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+* {
+    background-color: #f5f5dc	;
+}
+
+/*Nav Bar*/
+
+.hms_img {
+    width: 20%;
+  }
+  
+  .nav_bar {
+    display: flex;
+    margin-top: 20px;
+   
+  }
+  
+  .nav_list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: 300px;
+    top: 50px;
+  }
+  
+  
+  
+  li a {
+    padding: 20px;
+    color: #e16408;
+    font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  .hms_title {
+    position: relative;
+    left: 40px;
+  }
+
+
+.SH {
+    text-align: center;
+    
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    height: 500%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    
+  }
+
+.sn1 td {
+    background-color: whitesmoke;
+}
+
+.sn2 td {
+    background-color: #fff8dc	;
+}

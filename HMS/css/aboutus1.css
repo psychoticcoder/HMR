@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hms_img {
+  width: 20%;
+}
+
+.nav_bar {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  right: 200px;
+}
+
+.nav_list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  left: 400px;
+  top: 50px;
+}
+
+li a {
+  padding: 20px;
+  color: #e16408;
+  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.hms_title {
+  position: relative;
+  left: 40px;
+}
+
+.about-section {
+  background: url(../img/PortPic.jpg) no-repeat left;
+  background-size: 100%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.inner-container {
+  width: 55%;
+  height: auto;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.HMS_footer {
+    display: flex;
+    /* background-color: #2F3640; */
+    background-color: #545454;
+    padding: 50px;
+    position: relative;
+    right: 500px;
+    width: 229.5%;
+}
+
+.fl1 {
+    list-style: none;
+}
+.fl2 {
+    list-style: none;
+}
+.fl3 {
+    list-style: none;
+}
+.fl4 {
+    list-style: none;
+}
+.fl5 {
+    list-style: none;
+}
+.fl6 {
+    list-style: none;
+}
+
+.f1 {
+    position: relative;
+    left: 200px;
+    top: 8px;
+}
+
+.f2 {
+    position: relative;
+    left: 400px;
+}
+
+.f3 {
+    position: relative;
+    left: 600px;
+}
+
+.h11 {
+    color: white;
+    font-weight: bold;
+}
+
+.fl_li1 {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+
+.ma {
+    color: #a5a5a5;
+    position: relative;
+    top: 20px;
+}
+
+.phn1, .email1, .email2 {
+    color: #e16408;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container {
+    padding: 60px;
+  }
+}
